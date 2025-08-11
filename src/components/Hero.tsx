@@ -26,7 +26,7 @@ const Hero = () => {
             className="bg-gray-900 dark:bg-gray-100 text-gray-50 dark:text-blue-900 px-8 py-3 rounded-lg hover:bg-gray-700 dark:hover:bg-gray-100 transition shadow-lg"
             onClick={() => {
               // Replace with your resume URL
-              const resumeUrl = 'https://drive.google.com/file/d/17uHVJ639IWm-o_86zpAmTAoamSO0X0-q/view?usp=drive_link';
+              const resumeUrl = import.meta.env.VITE_RESUME_URL;
               window.open(resumeUrl, '_blank');
             }}
           >
