@@ -57,7 +57,7 @@ const projects: Project[] = [
         description: "A personal finance management tool that helps users track their expenses for different categories, set budgets, and visualize their spending habits.",
         technologies: ["React", "TypeScript", "Bootstrap", "Chart.js"],
         githubLink: "https://github.com/RvRagav/Expense_Tracker",
-        liveLink: "https://expense-tracker-demo.com",
+        liveLink: "https://expense-tracker-rv.netlify.app/",
         image: "/src/assets/expense.jpg"
     },
     {
@@ -65,7 +65,7 @@ const projects: Project[] = [
         description: "A web application for managing dental appointments, patient records, and treatment plans, providing a user-friendly interface for both patients and dentists.",
         technologies: ["React", "TypeScript", "Bootstrap", "React Icons"],
         githubLink: "https://github.com/RvRagav/DentalCare_Pro",
-        liveLink: "https://dental-care-pro-demo.com",
+        liveLink: "https://dental-care-pro.netlify.app/",
         image: "/src/assets/dental.jpg"
         
     },
