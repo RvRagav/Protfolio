@@ -18,7 +18,7 @@ const projects: Project[] = [
         technologies: ["Python", "TensorFlow", "Google Colab", "Streamlit"],
         githubLink: "https://github.com/RvRagav/GAN-Based-Image-Steganography",
         liveLink: "",
-        image: "/src/assets/steg.png"
+        image: "/assets/steg.png"
     },
     {
         title: "Environmental factor driven crop recommendation system",
@@ -26,7 +26,7 @@ const projects: Project[] = [
         technologies: ["Python", "Scikit-learn", "Pandas"],
         githubLink: "https://github.com/RvRagav/Crop_Recommendation_System",
         liveLink: "",
-        image: "/src/assets/crop.png"
+        image: "/assets/crop.png"
     },
     {
         title: "Agriculture Information and Advisory System",
@@ -34,7 +34,7 @@ const projects: Project[] = [
         technologies: ["React", "Node.js", "Express", "MongoDB"],
         githubLink: "https://github.com/RvRagav/Agriculture-Information-System",
         liveLink: "",
-        image: "/src/assets/agri.png"
+        image: "/assets/agri.png"
     },
     {
         title:"Airport Management System",
@@ -42,7 +42,7 @@ const projects: Project[] = [
         technologies: ["HTML", "CSS", "JavaScript", "Django", "SQLite"],
         githubLink: "https://github.com/RvRagav/DBMS-project",
         liveLink: "",
-        image: "/src/assets/airport.jpg"
+        image: "/assets/airport.jpg"
     },
     {
         title: "Bus Reservation System",
@@ -50,7 +50,7 @@ const projects: Project[] = [
         technologies: ["HTML", "CSS", "JavaScript", "Java Servlets", "MySQL"],
         githubLink: "https://github.com/RvRagav/Bus_booking_system",
         liveLink: "",
-        image: "/src/assets/bus.png"
+        image: "/assets/Bus.png"
     },
     {
         title: "Expence Tracker",
@@ -58,7 +58,7 @@ const projects: Project[] = [
         technologies: ["React", "TypeScript", "Bootstrap", "Chart.js"],
         githubLink: "https://github.com/RvRagav/Expense_Tracker",
         liveLink: "https://expense-tracker-rv.netlify.app/",
-        image: "/src/assets/expense.jpg"
+        image: "/assets/expense.jpg"
     },
     {
         title: "Dental Care Pro",
@@ -66,7 +66,7 @@ const projects: Project[] = [
         technologies: ["React", "TypeScript", "Bootstrap", "React Icons"],
         githubLink: "https://github.com/RvRagav/DentalCare_Pro",
         liveLink: "https://dental-care-pro.netlify.app/",
-        image: "/src/assets/dental.jpg"
+        image: "/assets/dental.jpg"
         
     },
     {
@@ -74,7 +74,7 @@ const projects: Project[] = [
         description: "A personal portfolio website showcasing my skills, projects, and experiences as a full stack developer.",
         technologies: ["React","TypeScript", "Tailwind CSS", "Framer Motion"],
         githubLink: "https://github.com/RvRagav/Portfolio",
-        image: "/src/assets/portfolio.png"
+        image: "/assets/portfolio.png"
     },
     // Add more projects here
 ]

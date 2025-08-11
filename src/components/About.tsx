@@ -25,7 +25,7 @@ const About = () => {
           >
             <div className="aspect-square rounded-full overflow-hidden bg-gray-100 dark:bg-gray-800 shadow-blue-400 dark:shadow-gray-700 shadow-lg">
               {/* Add your image here */}
-              <img src="/src/assets/ragavan_image.jpg" alt="Ragavan" className="w-full h-full object-cover" />
+              <img src="/assets/ragavan_image.jpg" alt="Ragavan" className="w-full h-full object-cover" />
               <div className="w-full h-full bg-gray-200 dark:bg-gray-800"></div>
             </div>
           </motion.div>

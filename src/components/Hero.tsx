@@ -10,7 +10,7 @@ const Hero = () => {
         className="max-w-7xl mx-auto text-center dark:text-gray-50"
       >
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight">
-          Say <img src="/src/assets/text.png" alt="" className="inline object-cover align-middle h-20" /> to Ragavan
+          Say <img src="/assets/text.png" alt="" className="inline object-cover align-middle h-20" /> to Ragavan
         </h1>
         <p className="mt-6 text-xl sm:text-2xl max-w-3xl mx-auto dark:text-gray-400">
           Student at Anna University MIT campus

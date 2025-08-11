@@ -1,6 +1,6 @@
 // src/components/ThemeToggle.tsx
 import { useState, useEffect } from "react";
-import { FaMoon, FaSun } from "react-icons/fa";
+// import { FaMoon, FaSun } from "react-icons/fa";
 
 export default function ThemeToggle() {
     const [dark, setDark] = useState(false);
