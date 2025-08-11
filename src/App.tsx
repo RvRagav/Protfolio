@@ -15,7 +15,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gray-50 ">
       {/* Custom Cursor */}
-      <CustomCursor />
+      {window.innerWidth > 768 && <CustomCursor />}
       {/* Navbar */}
       <Navbar />
       

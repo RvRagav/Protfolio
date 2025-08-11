@@ -5,6 +5,10 @@ const CustomCursor = () => {
     const [clicked, setClicked] = useState(false);
 
     useEffect(() => {
+        const isDesktop = window.matchMedia("(min-width: 768px)").matches;
+
+        if (!isDesktop) return;
+
         const moveCursor = (e: MouseEvent) => {
             if (cursorRef.current) {
                 cursorRef.current.style.left = `${e.clientX}px`;
@@ -49,3 +53,4 @@ const CustomCursor = () => {
 };
 
 export default CustomCursor;
+

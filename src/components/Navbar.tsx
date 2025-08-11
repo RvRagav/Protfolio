@@ -28,8 +28,10 @@ const Navbar = () => {
   const scrollToSection = (href: string) => {
     setIsOpen(false);
     const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+    // console.log(element);
+    if (element instanceof HTMLElement) {
+      // console.log(element);
+      element.scrollIntoView({ behavior: 'auto', block: 'start' });
     }
   };
 
@@ -93,19 +95,18 @@ const Navbar = () => {
           >
             <div className="px-4 py-2 space-y-2">
               {navLinks.map((link) => (
-                <motion.a
+                <motion.button
                   key={link.href}
-                  href={link.href}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    scrollToSection(link.href);
+                  onClick={() => {
+                    // console.log(`Navigating to ${link.href}`);
+                    scrollToSection(link.href); // <-- Use the scrollToSection function
                   }}
                   className="block w-full text-left px-4 py-2 text-gray-50 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-gray-50 dark:hover:bg-gray-800 rounded transition-colors"
                   whileHover={{ x: 10 }}
                   whileTap={{ scale: 0.95 }}
                 >
                   {link.label}
-                </motion.a>
+                </motion.button>
               ))}
             </div>
           </motion.div>
